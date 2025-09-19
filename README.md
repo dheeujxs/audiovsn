@@ -38,11 +38,12 @@ An end-to-end **AI-powered sound classification system** built with **Deep Learn
 
 ### 1️⃣ Clone Repository  
 ```bash
-git clone https://github.com/your-username/deep-audio-cnn.git
+git clone
 cd deep-audio-cnn
 cd backend
 pip install -r requirements.txt
-modal deploy api.py
+modal run main.py
+modal deploy main.py
 http://localhost:3000
 
 
